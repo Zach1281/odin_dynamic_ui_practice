@@ -8,8 +8,60 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header>
+      <nav>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown</button>
+          <div id="myDropdown" class="dropdown-content hidden">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="menu-container">
+        <div class="hamburger-menu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div id="myBurgerMenu" class="dropdown-content hidden">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+        </div>
+      </div>
+      <div class="image-slider">
+        <div class="image" data-num="0">
+          <img src="./assets/images/dhead.jpg" alt="dhead" />
+        </div>
+        <div class="image hidden" data-num="1">
+          <img src="./assets//images/dole.jpg" alt="dole" />
+        </div>
+        <div class="image hidden" data-num="2">
+          <img
+            src="./assets//images/hanauma-bay-nature-preserve.jpg"
+            alt="hanauma bay"
+          />
+        </div>
+        <div class="image hidden" data-num="3">
+          <img src="./assets/images/Hawaii1.jpg" alt="hawaii1" />
+        </div>
+        <div class="image hidden" data-num="4">
+          <img src="./assets/images/hawaiianfood.jpg" alt="hawaiian food" />
+        </div>
+        <div class="controls">
+          <div id="left-button">
+            <button id="go-left"><</button>
+          </div>
+          <div id="right-button">
+            <button id="go-right">></button>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
